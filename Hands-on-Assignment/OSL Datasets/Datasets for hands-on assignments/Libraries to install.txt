@@ -1,0 +1,25 @@
+# Libraries to install :
+# =====================
+
+conda install -c anaconda pydotplus
+
+conda install -c anaconda graphviz
+
+Add to the PATH (depending on Anaconda's install directory):
+ C:\Users\<User_Name>\Anaconda3\Library\bin\graphviz
+                      Or,
+ C:\ProgramData\Anaconda3\Library\bin\graphviz
+
+To modify PATH goto
+ Control Panel
+ > System and Security
+ > System
+ > Advanced System Settings
+ > Environment Variables
+ > Path
+ > Edit
+ > New
+
+conda install -c conda-forge watermark
+conda install -c conda-forge textblob
+
